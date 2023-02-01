@@ -1,9 +1,16 @@
+.main_container{
+    display: flex;
+    width: 90%;
+}
+
 #mi_foto img{
     border-radius: 50%;
 }
 
 aside{
     background-color: #9DB5EE;
+    width: 30%;
+    margin-right: 3%;
 }
 
 aside *{
@@ -36,6 +43,10 @@ h1{
 
 #abt-me{
     background-color:#6f788d;
+}
+
+#abt-me p{
+    color:white;
 }
 
 #abt-me h2{
