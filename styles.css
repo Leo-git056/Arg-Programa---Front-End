@@ -1,0 +1,26 @@
+section{
+    display: flex;
+}
+
+#principal{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+#principal h1{
+    font-size: 3rem;
+}
+#info_personal{
+    width: 30%;
+    height: 100%;
+}
+#div_personal{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border: 5px solid blue;
+   
+}
