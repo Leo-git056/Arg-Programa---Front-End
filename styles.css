@@ -1,0 +1,58 @@
+#mi_foto img{
+    border-radius: 50%;
+}
+
+aside{
+    background-color: #9DB5EE;
+}
+
+aside *{
+    color:white
+}
+
+aside h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid white
+}
+
+#hero{
+    background-color: #6f788d;
+    box-shadow: 5px 5px 10px 10px lightgrey ;
+    
+}
+
+h1{
+    color: white;
+   
+}
+
+#hero h2{
+    color: white;
+    border-top:2px solid white;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+#abt-me{
+    background-color:#6f788d;
+}
+
+#abt-me h2{
+    background-color: white;
+}
+
+main section h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+
+main section h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main section h4{
+    font-weight: bold;
+}
