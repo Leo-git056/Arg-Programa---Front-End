@@ -193,4 +193,51 @@ meter::-moz-meter-optimum{
         box-sizing: border-box;
     }
 }
+@media screen and (max-width:340px){
+    .main_container{
+        display:flex;
+        width: 95%;
+		margin: 10px auto;
+		flex-direction: column-reverse;
+    }
+    #res_l{
+        box-sizing: border-box;
+		width:100%;
+    }
 
+    #res_l .hero{
+        display:block;
+        background-color: #9DB5EE;
+        box-shadow: none;
+        
+    }
+
+    #res_l .hero h1{
+        
+    }
+    #res_l .hero h2{
+        border-bottom:white;
+        padding-top:40px;
+        padding-bottom:150px;
+    }
+
+    #res_r .hero{
+        display:none;
+    }
+    
+    #res_r {
+        order:-1;
+        width:100%;
+        box-sizing: border-box;
+    }
+
+
+    #abt-me{
+        box-sizing: border-box;
+    }
+
+    #contact ul{
+        font-size:15px;
+    }
+
+}
