@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6b60b39626.js" crossorigin="anonymous"></script>
     <title>CV L.Sánchez</title>
    
 </head>
 <body>
     <div class="main_container">
-    <aside>
+    <div id="res_l">
        
     
         <figure id="mi_foto">
            <img src="img/img_cv.jpg" alt="Foto de Leonardo Sanchez"/>
         </figure>
+        <section class="hero">
+            <h1>Leonardo Ariel Sánchez</h1>
+            <h2>Programador Junior</h2>
+         
+        </section>
         <section>
-            <h2>Información Personal</h2>
+            <h2 class="left_titles">Información Personal</h2>
             <ul>
                 <li>Fecha y lugar de nacimiento: 11/01/1994 - Cosquín,Córdoba</li>
                 <li>Nacionalidad: Argentino</li>
@@ -25,14 +31,14 @@
             </ul>
         </section>
         <section>
-            <h2>Educación</h2>
+            <h2 class="left_titles">Educación</h2>
             <ul>
                 <li>Bachiller en Ciencias Naturales y Salud Integral - Instituto Sagrada Familia - Cosquín</li>
                 <li>Estudiante de Ingeniería en Computación - Universidad Nacional de Córdoba</li>
             </ul>
         </section>
         <section>
-            <h2>Conocimientos</h2>
+            <h2 class="left_titles">Conocimientos</h2>
             <ul>
                 <li>Español: Idioma nativo</li>
                 <li>Inglés: Intermedio</li>
@@ -42,7 +48,7 @@
             </ul>
         </section>
         <section id="skills">
-            <h2>Habilidades</h2>
+            <h2 class="left_titles">Habilidades</h2>
             <ul>
                 <li>Trabajo en equipo
                     <meter value="90" min="0" max="100"></meter>
@@ -61,22 +67,24 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Datos de contacto</h2>
+        <section id="contact">
+            <h2 class="left_titles">Datos de contacto</h2>
             <ul>
-                <li>Tel: 3541620812</li>
-                <li>E-Mail: leonardo.sanchez@mi.unc.edu.ar</li>
+                
+                <li id="tel"><i class="fa-brands fa-whatsapp"></i> : 3541620812</li>
+                <li id="email"><i class="fa-solid fa-envelope"></i> : leonardo.sanchez@mi.unc.edu.ar</li>
             </ul>
         </section>
-    </aside>
+    </div>
 
-    <main>
+    <div id="res_r">
         
-        <section id="hero">
+        <section class="hero">
             <h1>Leonardo Ariel Sánchez</h1>
             <h2>Programador Junior</h2>
-            
+         
         </section>
+        
         <section id="abt-me">
             <h2>Acerca de mí</h2>
             <p>Estudiante de Ingeniería en Computación. Me gustaría adquirir competencia en el desarrollo de software.
@@ -87,7 +95,7 @@
                 
             </p>
         </section>
-        <section>
+        <section id="exp">
             <h2>Experiencia</h2>
             <div>
                 <h3>Puesto o trabajo</h3>
@@ -109,9 +117,10 @@
 
             
         </section>
-                
-    
-    </main>
+        
+          
     </div>
+    </div> 
+    
 </body>
 </html>
