@@ -146,9 +146,6 @@ meter::-moz-meter-optimum{
     width:290px;
     
 }
-.fa-square-whatsapp:before, .fa-whatsapp-square:before{
-    color:
-}
 
 @media screen and (max-width:800px){
     .main_container{
@@ -169,9 +166,7 @@ meter::-moz-meter-optimum{
         
     }
 
-    #res_l .hero h1{
-        
-    }
+    
     #res_l .hero h2{
         border-bottom:white;
         padding-top:40px;
@@ -212,9 +207,7 @@ meter::-moz-meter-optimum{
         
     }
 
-    #res_l .hero h1{
-        
-    }
+    
     #res_l .hero h2{
         border-bottom:white;
         padding-top:40px;
