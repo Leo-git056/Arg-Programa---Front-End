@@ -147,14 +147,14 @@ meter::-moz-meter-optimum{
     
 }
 
-#contact_w_me{}
+
 
 .form_data, .form_message{
     padding-top:20px;
     
 }
-.form_data input, {
-    width:250px;
+.form_data input {
+    width: 250px;
     
 }
 
