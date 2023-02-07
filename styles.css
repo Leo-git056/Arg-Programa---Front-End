@@ -101,7 +101,7 @@ h1{
 
 }
 
-#exp h2{
+.right_title{
     text-transform: uppercase;
     letter-spacing: 5px;
     border-bottom:black;
@@ -145,6 +145,22 @@ meter::-moz-meter-optimum{
     font-size: 17px;
     width:290px;
     
+}
+
+#contact_w_me{}
+
+.form_data, .form_message{
+    padding-top:20px;
+    
+}
+.form_data input, {
+    width:250px;
+    
+}
+
+.form_message textarea{
+    width:250px;
+    height: 200px;
 }
 
 @media screen and (max-width:800px){
